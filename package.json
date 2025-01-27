@@ -1,0 +1,23 @@
+{
+  "name": "save_throttle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.mjs serve",
+    "build": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/throttle-debounce": "^5.0.2",
+    "esbuild": "^0.21.4",
+    "esbuild-plugin-solid": "^0.6.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.17",
+    "throttle-debounce": "^5.0.0"
+  }
+}
